@@ -1,0 +1,23 @@
+/*cor do texto*/
+h1{
+    color: aliceblue;
+}
+
+/*vamos mudar a cor do fundo*/
+body{
+    background-color: black;
+}
+
+/* essa div vai deixar tudo no centro*/
+#center{
+    text-align: center;
+}
+
+#space{
+    margin: 10px;
+    font-size: 13px;
+}
+
+img{
+    margin: 40px;
+}

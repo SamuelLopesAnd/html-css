@@ -1,0 +1,18 @@
+.center{
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+body{
+    background-color: black;
+}
+#voltar-center{
+    text-align: center;
+    margin: 40px;
+}
+
+#link{
+    text-align: center;
+    margin: 10px;
+    font-size: small;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p> O comando <code>document.getElementbyId ('teste')</code> é escrito em linguagem javaScript </p>
+            
+              
+    <pre>
+        <code>
+    num - int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é IMPAR')
+    print('fim do programa')
+        </code>
+    </pre>
+    <!-- A tag <pre> mantém o texto pré formatado, exatemente da mesma maneira na qual ele foi digitado, incluindo quebras de linhas, espaços e tabulações. Execute o código acima e observe o que acontece. Aula 24 do curso em video no youtube.-->
+
+
+        <h2>Citaões simples </h2>
+        <p>Como diria o pai de um amigo:<q>o computador é um burro muito rápido</q></p>
+        <!--O <q> são aspas e são pra dá sentido a uma sitação. mas se não for uma sitação ,tudo bem usar aspas normal sem precisar da tag <q> -->
+
+        <h2>Citações completas</h2>
+        <p>Segundo Jeff Noble, no seu livro HTML para leigos:</p>
+        <blockquote cite="aqui você vai colocar o link do livro de onde você pegou a citação, ou colocar um link de venda deste livro hehe...">
+            <!--Embaixo é a citação do autor e em cima é o link dentro de blockquote-->
+            A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descreve os blocos do texto.
+        </blockquote>
+
+        <h2>Abreviações</h2>
+        <p>Estou estudando <abbr title="HperText Markup Laguage">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, Estou adorando!</p>
+
+<!-- Dentro de <abbr title=""> você coloca o sgnificado de uma sigla. Exemplo acima, execute para ver e passe o mause em cima da sigla para saber o sgnificado dela. tem como formatar em css tambem-->
+
+
+    <h2>Texto ivertido</h2>
+<p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+
+<!--A tag '<bdo dir="">' serve para deixa tudo ao contrario, tipo meu nome: leumas-->
+
+    <bdo dir="rtl">samuel</bdo>
+    <bdo dir="ltr">samuel</bdo>
+    <!--observe o comando e execute.-->
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MÍdias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tenta abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    
+    <picture> <!-- PICTURE basicamente é uma tag para tornar seu site mais responsivo, pra celular voce tem que colocar uma imagem adaptavel e para computador a mesma coisa.-->
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <!--a tag SOURCE é onde você vai configurar a img. As menores sempre ficando em cima das maiores-->
+        <source media="(max-width: 800px)" srcset="imagens/foto-m.png" type="image/png">
+                 <img src="imagens/foto-g.png" alt="Imagem 
+                flexível">
+    </picture>
+    
+
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="auto" controls loop>
+        <source src="midia/Xylophone-Tip Toe-Scale-Up-Copia.mp3">
+        <source src="midia/Xylophone-Tip Toe-Scale-Up-Copia.mp3" type="audio/mp3">
+        <!--evite o arquivo wav-->
+   
+    <!--Se você não conseguir reproduzir-->
+    <p>Infelizmente seu navegador não consegue reproduzir audio
+    <a href="midia/Xylophone-Tip Toe-Scale-Up-Copia.mp3">Clique aqui para baixar o arquivo mp3</a></p></audio>
+
+    
+    
+</body>
+</html>

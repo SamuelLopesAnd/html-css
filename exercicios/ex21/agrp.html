@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupamento de tag</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgrey;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(93, 91, 91);
+            padding: 2px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        section{
+            background-color: rgb(115, 112, 112);
+            padding-top: 1px;
+            margin: 1px;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+        }
+
+        article{
+            background-color: lightgrey;
+            padding: 30px;
+        }
+
+        article > aside {
+            background-color: rgb(165, 159, 159) ;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Noticias">
+            <p>Esportes, politica e tecnologia</p>
+                <article>
+                    <h1>Notícias sobre o Brasil</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolore accusantium ratione nobis. Recusandae in doloremque minima reiciendis ex voluptatem velit con sequatur. Minima, doloribus corrupti. Eius numquam consequatur quaerat ducimus!</p>
+                    <aside>
+                        <p>artigo escrito po jose da silva</p>
+                    </aside>
+                </article>
+        </section>
+    </main>
+    <footer> Desenvolvido por Samuel</footer>
+</body>
+</html>
