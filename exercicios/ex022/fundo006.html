@@ -6,20 +6,27 @@
     <title></title>
     <style>
         body{
+            font-family: 'Times New Roman', Times, serif;
             height: 100vh;
-            background-color: black;
-            background-image: url(imagens/wallpaper002.jpg);
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover ;
+            /* o fundo fica fixo e o que se mexe é só o conteudo que tá por cima*/
+
+
+            /* shorhand - background
+            color > image > position > reapeat > [size] <-cover não funciona > attachment*/
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat  fixed;
+            background-size: cover;
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 15px;
+        }
+        main > h1 {
+            font-size: 2em;
         }
     </style>
 </head>
@@ -29,6 +36,10 @@
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, culpa! Voluptate nesciunt dolore rerum, eligendi itaque excepturi iste nemo qui incidunt, optio recusandae debitis ea atque quisquam laudantium neque in?</p>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam ad maxime rem qui suscipit commodi vel quaerat est non, unde officia quasi ullam optio voluptatibus, provident reprehenderit nesciunt adipisci earum.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam repudiandae mollitia similique et quis in incidunt. Odio asperiores quae beatae magni eos, aliquam, distinctio iste repellendus reiciendis consectetur similique. Aspernatur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, quibusdam sit incidunt quos saepe iure reprehenderit dolor cupiditate rerum molestiae eligendi fuga dolores aut neque, eaque perferendis necessitatibus, unde dolore!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est quam quasi veniam quos cumque. Magni vero quidem minus corrupti veritatis ducimus quisquam quibusdam numquam! Non eveniet fugiat ducimus recusandae. Minus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia itaque natus excepturi voluptatem rerum optio a quas, quidem nisi voluptates quod tempora unde! Dolorum, praesentium. Libero cupiditate nulla optio. Itaque.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus harum odit, veniam, non dicta facilis assumenda dignissimos sunt mollitia itaque facere, quis beatae voluptates quibusdam temporibus ipsam. Nam, cum impedit.</p>
     </main>
 </body>
 </html>
