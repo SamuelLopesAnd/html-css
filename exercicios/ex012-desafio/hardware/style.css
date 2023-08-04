@@ -1,11 +1,16 @@
+@charset "UTF-8";
+
+
+body{
+    background-image: linear-gradient( 90deg, black, darkblue);
+}
+
 .center{
     text-align: center;
     font-size: 13px;
     letter-spacing: 2px;
 }
-body{
-    background-color: black;
-}
+
 #voltar-center{
     text-align: center;
     margin: 40px;
