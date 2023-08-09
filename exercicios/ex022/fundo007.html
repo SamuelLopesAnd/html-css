@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container{
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+
+            position: relative; /* opcional; em CSS já é relative por padrão*/
+            height: 96vh;
+            padding: 10px;
+            background-color: purple;
+        }
+
+        #conteudo{ 
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+
+            position: absolute; /*permite usar as propriedades top e left*/
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+        
+            left: 50%;
+            top: 50%;
+            
+            transform: translate(-50%, -50%); /*A porcentagem da esquerda se amentar vai pro lado esquerda se abaixar vai pro lado direito. A porcentagem da direita, se abaixa vai para baixo se amentar vai para cima */
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+     <article id="conteudo">
+
+     </article>   
+    </section>
+    
+</body>
+</html>

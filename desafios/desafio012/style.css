@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+        
+
+    :root{
+        ---font: Arial, Helvetica, sans-serif;
+        ---font: 
+        
+        
+    }
+
+    *{
+        margin: 0px;
+        
+    }
+
+
+    header {
+        padding: 80px;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 5em;
+    }
+    .s1 {
+        display: inline-block;
+        height: 600px;
+        width: 1269px;
+        padding: 40px;
+        padding-top: 90px;
+        background-color:white;
+        font-size: 3em;
+        box-shadow: 2px 1px 3px 3px;
+    }
+    #p1 {
+        display: inline-block;
+        background-image: linear-gradient(to bottom, white, black);
+        background-position: ;
+        height: 500px;
+        width: 500px;
+    }
+
+    .s2 {
+        background-image: url(imagens/background001.jpg);  
+    }
