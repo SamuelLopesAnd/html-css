@@ -1,10 +1,17 @@
 @charset "UTF-8";
 
 
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family= Sriracha & display=swap');
+
+
     :root{
-        ---font: Arial, Helvetica, sans-serif;
-        ---font: 
-        
+        ---font1: Verdana, geneva, tahoma, sans-serif;
+        ---font2: 'Passion One', cursive; 
+        ---font3: 'Sriracha', cursive;
         
     }
 
@@ -17,13 +24,16 @@
     
 
     html, body {
-        background-color: darkgray;
+        font-family: var(---font1);
+        background-color: white;
         min-height: 100vh;
-        min-width: 400px;
+        min-width: 100vw;
        
        
     }
     section {
+        font-family: var(---font3);
+        font-size: 4vw;
         padding-top: 10vh;
         padding-bottom: 10vh;
         line-height: 2em; /* Espaçamento entre linhas*/
@@ -31,9 +41,16 @@
     }
 
     .imagem { 
+        display: inline-block; /* Ele se adapta a caixa, ou seja, fica do tamanho da caixa de qualquer maneira. dê uma olhada */
         background-color: rgba(0, 0, 0, 0.223);
+        padding: 10px;
         color: white;
-        width: 400px;
+        position: relative;
+
+        top: 9%;
+        left: 4%;
+
+        transform: translate( -50% -50%);
     }
 
 
@@ -45,8 +62,9 @@
     }
     
     header > h1 {
+        font-family: var(---font2);
         font-variant: small-caps;
-        font-size: 5em;
+        font-size: 10vw;
     }
 
     header > p {
@@ -62,16 +80,6 @@
     header a:hover, footer a:hover {
         text-decoration: underline;
     }
-    .s1 {
-        display: block;
-        height: 800px;
-        width: 80.4vw;
-        padding: 40px;
-        padding-top: 90px;
-        background-color:white;
-        font-size: 8vh;
-        box-shadow: 2px 1px 3px 3px;
-    }
   
     .s2 {
         display: inline-flex;
@@ -80,131 +88,27 @@
         background-position: right center;
         background-size:  cover;
         background-attachment: fixed;
-        height: 900px;
+        height: 100vh;
         width: 100vw;
         
     }
-
-    #p2 {
-        display: inline-flex;
-        background-color: rgba(0, 0, 0, 0.301);
-        color: white;
-        font-family: monospace;
-        font-size: 10vh;
-        position: relative;
-        text-align:  left;
-        font-size: 3em;
-        max-width: 600px;
-        height:500px;
-        
-
-        top: 49%;
-        left: 25%;
-
-        transform: translate(-50%, -50%);
-    }
-
-    .s3 {
-        background-color: white;
-        height: 1200px;
-        width: 100%;
-        box-shadow: 5px 3px 4px 2px black;
-    }
-
-    .p3 {
-        background-color: rgb(85, 66, 66);
-        width: 800px;
-        height: 500px;
-        font-size: 8vh;
-        position: relative;
-        padding: 10px;
-
-        top: 9%;
-        left: 6%;
-
-        transform: translate( -50% -50%);
-    }
- 
    
-
-
-  
-
-
-    .s5 {
+    .s4 {
         background-image: url(imagens/background002.jpg);
         background-position: right center;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        width: 100%;
-        height: 800px;
+        width: 100vw;
+        height: 100vh;
     }
 
-    #p5 {
-        background-color: rgba(0, 0, 0, 0.17);
-        color: white;
-        width: 200px;
+    .p{
+        padding-bottom: 150px;
     }
-  
-    
-
-    .s6{
-        background-color: white;
-        width: 100%;
-        height: 1300px;
-    }
-
-    #p6 {
-        background-color: white;
-        width: 800px;
-        height: 100px;
-        position: relative;
-
-        top: 10%;
-        left: 6%;
-
-        transform: translate( -50% -50%);
-    }
-
-
-    #p7 {
-            background-color: white;
-            width: 700px;
-            height: 500px;
-            font-size: 8vh;
-            position: relative;
-    
-            top: 17%;
-            left: 6%;
-    
-            transform: translate( -50% -50%);
-    }
-
     footer{
         background-color: black;
         color: white;
         text-align: center;
         padding: 10px;
     }
-
-   .o {position: relative; /* opcional; em CSS já é relative por padrão*/
-    height: 96vh;
-    padding: 10px;
-    background-color: purple;
-}
-
-#conteudo{ 
-    background-image: url(imagens/target001.png);
-    background-size: 100% 100%;
-
-    position: absolute; /*permite usar as propriedades top e left*/
-    height: 200px;
-    width: 400px;
-    background-color: yellow;
-
-    left: 37%;
-    top: 6%;
-    
-    transform: translate(-50%, -50%); /*A porcentagem da esquerda se amentar vai pro lado esquerda se abaixar vai pro lado direito. A porcentagem da direita, se abaixa vai para baixo se amentar vai para cima */
-}
