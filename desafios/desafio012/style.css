@@ -33,21 +33,22 @@
     }
     section {
         font-family: var(---font3);
-        font-size: 4vw;
+        font-size: 3vw;
         padding-top: 10vh;
         padding-bottom: 10vh;
         line-height: 2em; /* Espaçamento entre linhas*/
         padding-left: 30px;
+
     }
+
 
     .imagem { 
         display: inline-block; /* Ele se adapta a caixa, ou seja, fica do tamanho da caixa de qualquer maneira. dê uma olhada */
         background-color: rgba(0, 0, 0, 0.223);
-        padding: 10px;
         color: white;
         position: relative;
 
-        top: 9%;
+        top: 0%;
         left: 4%;
 
         transform: translate( -50% -50%);
@@ -82,7 +83,6 @@
     }
   
     .s2 {
-        display: inline-flex;
         background-image: url(imagens/background001.jpg);
         background-repeat: no-repeat ;
         background-position: right center;
@@ -90,7 +90,6 @@
         background-attachment: fixed;
         height: 100vh;
         width: 100vw;
-        
     }
    
     .s4 {
