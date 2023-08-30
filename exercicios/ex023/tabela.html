@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        table{
+            width: 400px;
+            height: 400px;
+           border-collapse: collapse;
+        }
+
+        td{
+            text-align: left; /* Alinhamento horizontal*/
+            vertical-align: middle; /*Alinhamento vertical*/
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .numero{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+        <!--
+            herarquia de tabela (simples)
+            dentro de cada uma vai haver um tipo de tabela. ex:
+            table - tabela
+                table rows - linha de tabela
+                    table header - cabeçalho de tabela
+                    table date - dado de tabela
+        
+        -->
+    
+    <table>
+        <tr><!--primeira linha-->
+            <td>A1
+            <td>B1</td> <!--fechamento de tag opcinal-->
+            <td class="numero">C1
+        </tr>
+        <!--Segunda linha-->
+        <tr><td>A2</td>
+            <td>B2</td>
+            <td class="numero">C2</td>
+        </tr>
+        <!--Terceira linha-->
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td class="numero">C3</td>
+       </tr>
+       <!--Quarta linha-->
+       <tr>
+             <td>A4</td>
+             <td>B4</td>
+             <td class="numero">C4</td>
+        </tr>
+        <tr>
+            <td>A5</td>
+            <td>B5</td>
+            <td class="numero">C5</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
