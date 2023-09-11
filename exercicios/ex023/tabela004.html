@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 2.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        tr > th, td {
+            border: 1px solid black;
+            padding: 10px;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de tabela</h1>
+    <table>
+        <caption>
+            Filmes favoritos
+        </caption>
+        <thead>
+                <tr>
+                <th scope="col"><strong>Grupo</strong></th>
+                <th colspan="3" scope="col"><strong>Nomes</strong></th>
+                <th colspan="4" scope="colgroup"><strong>Filmes</strong></th> <!-- col é uma coluna e colgroup é um conjunto de colunas mais de 1 coluna-->
+            </tr>
+        </thead>
+        <tfoot>
+            <th colspan="6" scope="row">Total</th>
+            <td>1000</td>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup"><strong>Mulheres</strong></th> <!-- rowgroup é uma conjunto de linhas, Ana, beatriz, claudia. ele vai pegar um grupo -->
+                <td colspan="3">Ana Maria</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+                </tr>
+
+                 <tr>                                                 <td colspan="3">Beatriz Souza</td>
+                <td>Hulk</td>                                           <td>Inception</td>
+                <td>Batman</td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">Claúdia Melo</td>
+                    <td>Obivion</td>
+                    <td>Matrix</td>
+                    <td>Big Hero</td>
+                </tr>             
+                
+                <tr>
+                    <td scope="rowgroup" rowspan="3">Homens</td>
+                    <td colspan="3">Bruno Mendonça</td>
+                    <td>Intocáveis</td>
+                    <td>Aminésia</td>
+                    <td>Gladiador</td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">Daniel  Lorenço</td>
+                    <td>Wall-E</td>
+                    <td>Oldboy</td>
+                    <td>Dangal</td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">Fabiano Mota</td>
+                    <td>Star Wars 5</td>
+                    <td>Taxi Driver</td>
+                    <td>Toy Story</td>
+                </tr>
+        </tbody>
+        
+    </table>
+</body>
+</html>
