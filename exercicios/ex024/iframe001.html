@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de iframe</title>
+    <style>
+        iframe{  /* 3 - As css é superior com já vimos antes, se for definido dentro de css e não na propria tag ou até definido na tag e na css o que vai valer é o css e não a altura ou largura dentro de css*/
+            width: 150px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando o iframe</h1>
+    <!-- 2- Podemos configurar altura e largura
+    
+        O tamanho padrão da largura e altura da iframe é de 300x150
+    para configuarar a altura/largura colocamos height dentro da iframe ou colocamos width para largura, não precisa colocar style é só colocar width ou height e colocar quantos pixels sem precisar colocar 'px' apenas o número-->
+    <p>Acessando o site do 
+
+        <!-- 1- Se por acaso o link não for compativel você pode usar um link ou deixar uma mensagem em baixo dentro do iframe e dentro de [] -->
+        <iframe src="https://cursoemvideo.com" frameborder="1" height="200" scrolling="yes"> <!-- 3- scrolling é um parametro, vamos falar um pouco sobre ele. O comportamento de    rolagem de um iframe é determinado pelo atributo scrolling do elemento iframe.
+         Este atributo pode ter os seguintes valores:
+
+        auto: o comportamento de rolagem é determinado pelo valor calculado de overflow do conteúdo do iframe.
+        no: o iframe não tem barras de rolagem.
+        yes: o iframe tem barras de rolagem, mesmo se o conteúdo não exigir.-->
+           O <a href="https://www.tiktok.com" target="_blank">video do tiktok</a>
+        </iframe>
+        
+         para aprender a programar</p>
+
+    <p> 
+        O repositorio do guanabara 
+        
+        <iframe src="https://gustavoguanabara.github.io" frameborder="0" height="500" width="500">
+            <a href="https://gustavoguanabara.github.io" target="_blank"></a>
+        </iframe>
+        
+        
+        também é bem legal
+    </p>
+</body>
+</html>
