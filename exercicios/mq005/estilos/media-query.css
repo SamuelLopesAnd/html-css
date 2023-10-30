@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* Typical Divice Breakpoits
+-------------------------------
+Desktop: de 1280px acima 
+Tablet: de 768px ate 1279px
+Mobile: de 320px ate 767px*/
+
+* {
+
+}
+
+@media screen and (min-width: 767px) {
+
+    i#burguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;
+    }
+}

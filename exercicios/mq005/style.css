@@ -23,10 +23,10 @@ header, h1 {
     text-align: center;
 }
 
-i#burger {
-    background-color: rgb(33, 32, 32);
-    color: white;
+i#burguer {
     display: block;
+    background-color: black;
+    color: white;
     text-align: center;
     padding: 10px;
     cursor: pointer;
